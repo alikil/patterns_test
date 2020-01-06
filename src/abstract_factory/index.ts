@@ -1,9 +1,9 @@
-import { AbstractFactory } from "./interface";
+import { IAbstractFactory } from "./interface";
 import { Factory1 } from "./factory1";
 import { Factory2 } from "./factory2";
 
 // ============== Принимает тип фабрики / нового нужного обьекта (1,2) ==========
-function clientCode(factory: AbstractFactory) {
+function clientCode(factory: IAbstractFactory) {
 	const AbstractButton = factory.createButton();
 	const AbstractInfo = factory.createInfo();
 	return {

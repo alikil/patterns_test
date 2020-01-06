@@ -1,11 +1,11 @@
-import { AbstractInfo, AbstractButton } from "./interface";
+import { IAbstractInfo, IAbstractButton } from "./interface";
 
-class Info2 implements AbstractInfo {
+class Info2 implements IAbstractInfo {
 	public createInfo(): string {
 		return "AnyCreatedInformation 2";
 	}
 	// ============ + Product A2 (receve additional product info) =================
-	public createInfoToButton(collaborator: AbstractButton): object {
+	public createInfoToButton(collaborator: IAbstractButton): object {
 		return collaborator.createButton();
 	}
 }

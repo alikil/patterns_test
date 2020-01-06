@@ -1,6 +1,6 @@
-import { AbstractButton } from "./interface";
+import { IAbstractButton } from "./interface";
 
-class HiddenButton implements AbstractButton {
+class HiddenButton implements IAbstractButton {
 	public createButton(): object {
 		return {
 			name: "button",

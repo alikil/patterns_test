@@ -1,18 +1,18 @@
 // ======== интерфейс абстрактной фабрики ==========
-interface AbstractFactory {
-	createButton(): AbstractButton;
-	createInfo(): AbstractInfo;
+interface IAbstractFactory {
+	createButton(): IAbstractButton;
+	createInfo(): IAbstractInfo;
 }
 
 // ======== интерфейс функций Button ==========
-interface AbstractButton {
+interface IAbstractButton {
 	createButton(): object;
 }
 
 // ======== интерфейс функций Info ==========
-interface AbstractInfo {
+interface IAbstractInfo {
 	createInfo(): string;
-	createInfoToButton(collaborator: AbstractButton): object;
+	createInfoToButton(collaborator: IAbstractButton): object;
 }
 
-export { AbstractFactory, AbstractButton, AbstractInfo };
+export { IAbstractFactory, IAbstractButton, IAbstractInfo };
