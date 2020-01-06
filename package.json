@@ -6,6 +6,7 @@
 	"scripts": {
 		"abstract_factory": "ts-node src/abstract_factory/index.ts",
 		"adapter": "ts-node src/adapter/index.ts",
+		"builder": "ts-node src/builder/index.ts",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
