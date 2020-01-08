@@ -7,6 +7,7 @@
     "abstract_factory": "ts-node src/Creational_Patterns/abstract_factory/index.ts",
     "builder": "ts-node src/Creational_Patterns/builder/index.ts",
     "factory": "ts-node src/Creational_Patterns/factory/index.ts",
+    "prototype": "ts-node src/Creational_Patterns/prototype/index.ts",
     "adapter": "ts-node src/Structural_Patterns/adapter/index.ts",
     "bridge": "ts-node src/Structural_Patterns/bridge/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
