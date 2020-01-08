@@ -13,4 +13,5 @@ class Abstraction {
     return `Abstraction: Base operation with:\n${result}`;
   }
 }
+
 export { Abstraction };
